@@ -1,0 +1,39 @@
+{
+    "flashcards": [
+        {
+            "number": "1",
+            "category": "Category #1",
+            "background": "#FFCD2F",
+            "card": "Card prompt #1",
+            "answer": "Card prompt answer #1"
+        },
+        {
+            "number": "2",
+            "category": "Category #2",
+            "background": "#2FB4D2",
+            "card": "Card prompt #2",
+            "answer": "Card prompt answer #2"
+        },
+        {
+            "number": "3",
+            "category": "Category #3",
+            "background": "#645FA9",
+            "card": "Card prompt #3",
+            "answer": "Card prompt answer #3"
+        },
+        {
+            "number": "4",
+            "category": "Category #4",
+            "background": "#F89D3E",
+            "card": "Card prompt #4",
+            "answer": "Card prompt answer #4"
+        },
+        {
+            "number": "5",
+            "category": "Category #5",
+            "background": "#005AAA",
+            "card": "Card prompt #5",
+            "answer": "Card prompt answer #5"
+        }
+    ]
+}
