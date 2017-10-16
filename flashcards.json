@@ -2,38 +2,353 @@
     "flashcards": [
         {
             "number": "1",
-            "category": "Category #1",
-            "background": "#FFCD2F",
-            "card": "Card prompt #1",
-            "answer": "Card prompt answer #1"
+            "category": "Borders",
+            "background": "pink",
+            "card": "Border",
+            "answer": "“border”"
         },
         {
             "number": "2",
-            "category": "Category #2",
-            "background": "#2FB4D2",
-            "card": "Card prompt #2",
-            "answer": "Card prompt answer #2"
+            "category": "Borders",
+            "background": "pink",
+            "card": "No border",
+            "answer": "“border-0”"
         },
         {
             "number": "3",
-            "category": "Category #3",
-            "background": "#645FA9",
-            "card": "Card prompt #3",
-            "answer": "Card prompt answer #3"
+            "category": "Borders",
+            "background": "pink",
+            "card": "No top border",
+            "answer": "“border-top-0”"
         },
         {
             "number": "4",
-            "category": "Category #4",
-            "background": "#F89D3E",
-            "card": "Card prompt #4",
-            "answer": "Card prompt answer #4"
+            "category": "Borders",
+            "background": "pink",
+            "card": "No right border",
+            "answer": "“border-right-0”"
         },
         {
             "number": "5",
-            "category": "Category #5",
-            "background": "#005AAA",
-            "card": "Card prompt #5",
-            "answer": "Card prompt answer #5"
+            "category": "Borders",
+            "background": "pink",
+            "card": "No bottom border",
+            "answer": "“border-bottom-0”"
+        },
+        {
+            "number": "6",
+            "category": "Borders",
+            "background": "pink",
+            "card": "No left border",
+            "answer": "“border-left-0”"
+        },
+        {
+            "number": "7",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Blue border",
+            "answer": "“border border-primary”"
+        },
+        {
+            "number": "8",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Gray border",
+            "answer": "“border border-secondary”"
+        },
+        {
+            "number": "9",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Green border",
+            "answer": "“border border-success”"
+        },
+        {
+            "number": "10",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Red border",
+            "answer": "“border border-danger”"
+        },
+        {
+            "number": "11",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Yellow border",
+            "answer": "“border border-warning”"
+        },
+        {
+            "number": "12",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Teal border",
+            "answer": "“border border-info”"
+        },
+        {
+            "number": "13",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Light gray border",
+            "answer": "“border border-light”"
+        },
+        {
+            "number": "14",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Black border",
+            "answer": "“border border-dark”"
+        },
+        {
+            "number": "15",
+            "category": "Borders",
+            "background": "pink",
+            "card": "White border",
+            "answer": "“border border-white”"
+        },
+        {
+            "number": "16",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Round corners",
+            "answer": "“rounded”"
+        },
+        {
+            "number": "17",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Round top corners",
+            "answer": "“rounded-top”"
+        },
+        {
+            "number": "18",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Round right corners",
+            "answer": "“rounded-right”"
+        },
+        {
+            "number": "19",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Round bottom corners",
+            "answer": "“rounded-bottom”"
+        },
+        {
+            "number": "20",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Round left corners",
+            "answer": "“rounded-left”"
+        },
+        {
+            "number": "21",
+            "category": "Borders",
+            "background": "pink",
+            "card": "Circle",
+            "answer": "“rounded-circle”"
+        },
+        {
+            "number": "22",
+            "category": "Borders",
+            "background": "pink",
+            "card": "No round corners",
+            "answer": "“rounded-0”"
+        },
+        {
+            "number": "23",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Blue text",
+            "answer": "“text-primary”"
+        },
+        {
+            "number": "24",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Gray text",
+            "answer": "“text-secondary”"
+        },
+        {
+            "number": "25",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Green text",
+            "answer": "“text-success”"
+        },
+        {
+            "number": "26",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Red text",
+            "answer": "“text-danger”"
+        },
+        {
+            "number": "27",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Yellow text",
+            "answer": "“text-warning”"
+        },
+        {
+            "number": "28",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Teal text",
+            "answer": "“text-info”"
+        },
+        {
+            "number": "29",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Light gray text",
+            "answer": "“text-light”"
+        },
+        {
+            "number": "30",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Black text",
+            "answer": "“text-dark”"
+        },
+        {
+            "number": "31",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "White text",
+            "answer": "“text-white”"
+        },
+        {
+            "number": "32",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Blue background",
+            "answer": "“bg-primary”"
+        },
+        {
+            "number": "33",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Gray background",
+            "answer": "“bg-secondary”"
+        },
+        {
+            "number": "34",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Green background",
+            "answer": "“bg-success”"
+        },
+        {
+            "number": "35",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Red background",
+            "answer": "“bg-danger”"
+        },
+        {
+            "number": "36",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Yellow background",
+            "answer": "“bg-warning”"
+        },
+        {
+            "number": "37",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Teal background",
+            "answer": "“bg-info”"
+        },
+        {
+            "number": "38",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Light gray background",
+            "answer": "“bg-light”"
+        },
+        {
+            "number": "39",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "Black background",
+            "answer": "“bg-dark”"
+        },
+        {
+            "number": "40",
+            "category": "Colors",
+            "background": "skyblue",
+            "card": "White background",
+            "answer": "“bg-white”"
+        },
+        {
+            "number": "41",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: none",
+            "answer": "“d-none”"
+        },
+        {
+            "number": "42",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: inline",
+            "answer": "“d-inline”"
+        },
+        {
+            "number": "43",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: inline-block",
+            "answer": "“d-inline-block”"
+        },
+        {
+            "number": "44",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: block",
+            "answer": "“d-block”"
+        },
+        {
+            "number": "45",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: table",
+            "answer": "“d-table”"
+        },
+        {
+            "number": "46",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: table-cell",
+            "answer": "“d-table-cell”"
+        },
+        {
+            "number": "47",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: flex",
+            "answer": "“d-flex”"
+        },
+        {
+            "number": "48",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: inline-flex",
+            "answer": "“d-inline-flex”"
+        },
+        {
+            "number": "49",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: none ≥576px",
+            "answer": "“d-sm-none”"
+        },
+        {
+            "number": "50",
+            "category": "Display",
+            "background": "lavender",
+            "card": "Display: inline ≥576px",
+            "answer": "“d-sm-inline”"
         }
     ]
 }
