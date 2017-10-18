@@ -1,50 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
-$subtext: 0.707em;
-$p: 14px;
-$sub-heading: 1.414em;
-$heading: 1.999em;
-$main-heading: 2.827em;
-$extra-large: 3.998em;
-
-$padding-text: $p;
-$padding-large: $p * 2;
-
-$color-map-gray: (
-    0000: hsl(0, 0%, 13.5%),    // 
-    1000: hsl(0, 0%, 20%),   // #333333
-    2000: hsl(0, 0%, 34.1%), // #575757
-    2500: hsl(0, 0%, 41%),   // #696969 <-- New value
-    3000: hsl(0, 0%, 50.2%), // #808080
-    4000: hsl(0, 0%, 70.2%), // #b3b3b3
-    5000: hsl(0, 0%, 76.9%), // #c4c4c4
-    6000: hsl(0, 0%, 91%)    // #e8e8e8
-);
-
-$color-map: (
-  purple: #9b87ff, //rgba(155, 135, 255, 100)
-  green:  #93ff97,  //rgba(147, 255, 151, 100)
-  red:  #EE6352,  //rgba(7, 67, 93, 100)
-  orange: #f2cd54,   //rgba(242, 205, 84, 100)
-  blue:   #56e8ff    //rgba(86, 232, 255, 100)
-);
-
-$purple: map-get($color-map, purple);
-$green: map-get($color-map, green);
-$red: map-get($color-map, red);
-$orange: map-get($color-map, orange);
-$blue: map-get($color-map, blue);
-
-$gray-00: map-get($color-map-gray, 0000);
-$gray-10: map-get($color-map-gray, 1000);
-$gray-20: map-get($color-map-gray, 2000);
-$gray-25: map-get($color-map-gray, 2500);
-$gray-30: map-get($color-map-gray, 3000);
-$gray-40: map-get($color-map-gray, 4000);
-$gray-50: map-get($color-map-gray, 5000);
-$gray-60: map-get($color-map-gray, 6000);
-
-
 * {
   transition: .3s;
 }
@@ -56,23 +11,23 @@ html {
 
 body {
   font-family: 'Open Sans';
-  font-size: $p;
+  font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.2px;
   color: #fff;
-  background: map-get($color-map-gray, 1000);
+  background: #f3f3f3;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100%;
   width: 100%;
-  padding: $padding-text;
+  padding: 20px;
   box-sizing: border-box;
 }
 
 .box {
   height: 150px;
   width: 200px;
-  background-color: $gray-60;
+  background-color: gray;
 }
